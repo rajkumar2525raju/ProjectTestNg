@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name = "username" value = "seleniumaccounttest"> </parameter>
+  <parameter name = "username" value = "selenium"> </parameter>
+  <parameter name = "password" value = "Selenium123"> </parameter>
+  <parameter name = "location" value = "Sydney"> </parameter>
+  <parameter name = "Hotel" value = "Hotel Sunshine"> </parameter>
+  <parameter name = "Room Type" value = "Standard"> </parameter>
+  <parameter name = "Room Numbers" value = "1 - One"> </parameter>
+  <parameter name = "Check In" value = "25/09/2020"> </parameter>
+  <parameter name = "Check Out" value = "27/09/2020"> </parameter>
+  <parameter name = "Adults" value = "2 - Two"> </parameter>
+  
+    <classes>
+      <class name="org.sample.Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
